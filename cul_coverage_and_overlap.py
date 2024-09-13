@@ -68,7 +68,6 @@ def count_elements_ge(array, threshold):
 
 
 for point in points:
-
     lon, lat = grid_point_to_lon_lat(*point)
     print(f"当前分析点为{point[0], point[1]}")
     if (point[0], point[1]) == (801.0, 959.0):

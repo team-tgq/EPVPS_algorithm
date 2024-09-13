@@ -1548,7 +1548,7 @@ def get_initial_param_spderl(x_center, y_center, h_center, radius, h_stand):
     see_height = h_center + h_stand
 
     # 求站立点的格网位置
-    x_grid_observe, y_grid_observe, x_grid_center, y_grid_center, x_grid_inner, y_grid_inner, is_in_x_grid_point, is_in_y_grid_point = dem.get_point_location(
+    x_grid_observe, y_grid_observe, x_grid_center, y_grid_center, x_grid_inner, y_grid_inner, is_in_x_grid_point, is_in_y_grid_point = dem.get_point_loscation(
         x_center, y_center)
 
     # 第一个格网点的经纬度
